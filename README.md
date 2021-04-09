@@ -1,5 +1,5 @@
 # Diffuse-Large-B-Cell-Lymphomas-Prediction
-DLBCL is the most common subtype of non-Hodgkin lymphoma (NHL), globally constituting up to 40% of all cases [3]. 
+DLBCL is the most common subtype of non-Hodgkin lymphoma (NHL), globally constituting up to 40% of all cases. 
 In the US alone, out of 100000 people, it affects about seven of them every year. It is fast-growing and is a very aggressive form of NHL. 
 It is fatal if left untreated, but with appropriate treatment at the correct time, near about two-thirds of them can be cured.
 
@@ -11,8 +11,8 @@ This is why we need feature selection.
 
 Here, an ensemble of 3 feature selection methods have been applied to increase accuracy.
 
-As a part of preprocessing, values of both the datasets have been standardized and then normalized.
-After the preprocessing, three ML algorithms RNF, KNN and NB have been applied on the datasets with 10-fold cross validation and accuracies have been noted.
+As a part of preprocessing, values of the dataset have been standardized and then normalized.
+After the preprocessing, three ML algorithms RNF, KNN and NB have been applied on the dataset with 10-fold cross validation and accuracies have been noted.
 A union of the top n features obtained from each filter method has been considered. 
 Then on the reduced feature set identified as important features, the classifier have been applied.
 
